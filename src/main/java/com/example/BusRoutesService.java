@@ -49,7 +49,7 @@ public class BusRoutesService {
 
         String[] nonOptionArgs = env.getProperty("nonOptionArgs", String[].class);
 
-        if(nonOptionArgs != null) {
+        if (nonOptionArgs != null) {
             file = new File(nonOptionArgs[0]);
         }
 
