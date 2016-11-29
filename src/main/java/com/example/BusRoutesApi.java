@@ -11,9 +11,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
-/**
- * Created by arne on 25.11.16.
- */
 @Controller
 @RequestMapping("/api")
 public class BusRoutesApi {
